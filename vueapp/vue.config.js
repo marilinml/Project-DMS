@@ -23,11 +23,6 @@ module.exports = {
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
         },
-        //proxy: {
-        //    '^cars/': {
-        //        target: 'https://localhost:7009/'
-        //    }
-        //},
         port: 5002
     }
 }
