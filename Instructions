@@ -1,0 +1,24 @@
+ 
+Dominion DMS Web Developer Test
+  
+Project:
+Create an ASP.NET website in VB.NET or C# that comprises the following:
+You should address each of the following points, but everything else is completely up to you and your interpretation – there are no wrong answers or interpretations. Please comment on your work and be prepared to discuss it with us.
+ 
+1.	Create a Single Page Application web page for searching American Automobiles (GM, Ford, Chrysler). Making it look pretty isn’t necessary. Please use VUE.js and JQuery for constructing the client.
+●	Sort by price, and model then price
+2.	Create an API  in ASP.NET  to return json data. Schema is up to you. Create a handful of listings with:
+●	Price
+●	Model
+●	MIleage
+●	Color
+●	Status
+3.	Demonstrate the use of inheritance in the API by creating a class that represents a Car from the JSON output.
+●	Create a base class
+●	Create derived classes that have different business logic for two different clients: Dealer 1 and Dealer 2
+○	For Dealer 1, if the Status is Active display  “For Sale”
+○	For Dealer 2, if the Status is Active display “Active”.
+4.	Be able to execute the web page from Step #1 above as either Dealer 1 or Dealer 2 dependent on a query string parameter. 
+ 
+
+NOTE: Project must be self-contained. Do not include connection to SQL DB or any external Data store. Please include instructions for running your application if necessary.
